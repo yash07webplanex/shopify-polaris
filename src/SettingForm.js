@@ -11,7 +11,7 @@ class SettingForm extends Component {
     }
     render() {
         return (
-            <form onSubmit={this.handleFormSubmit.bind(this)} style={{marginTop:'250px'}}>
+            <form onSubmit={this.handleFormSubmit.bind(this)} style={{marginTop:'5px'}}>
                 <Layout>
                     <Layout.AnnotatedSection
                         title="Connect User"
@@ -76,7 +76,7 @@ class SettingForm extends Component {
                         description="Discover how Shopify can power up your entrepreneurial journey."
                         popoverActions={[{ content: 'Dismiss', onAction: () => { } }]}
                     >
-                        <img
+                        <img 
                             alt=""
                             width="100%"
                             height="100%"
@@ -93,7 +93,7 @@ class SettingForm extends Component {
 
         )
     }
-    toggleConnection() {
+    toggleConnection()   {
         this.setState(({ Connected }) => ({ Connected: !Connected }));
     }
 
@@ -122,7 +122,7 @@ class SettingForm extends Component {
                 action={{ content: "Connected" }}
                 details="No Account Connect"
                 termsOfService={<p>shopify polaric accound <Link url="#">data connectede</Link> dropshipp acc connection are finf out this value find out</p>}
-            />)
+            />)    
     }
 }
 

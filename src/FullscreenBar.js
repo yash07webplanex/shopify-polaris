@@ -59,7 +59,7 @@ import {
     ];
   
     return (
-      <div style={{height: '250px', width: '100%'}}>
+      <div style={{height: 'auto', width: '100%'}}>
         {isFullscreen && fullscreenBarMarkup}
         <div style={{padding: '1rem'}}>
           {!isFullscreen && (
@@ -72,7 +72,7 @@ import {
           columnContentTypes={[
             'text',
             'numeric',
-            'numeric',q
+            'numeric',
             'numeric',
             'numeric',
           ]}

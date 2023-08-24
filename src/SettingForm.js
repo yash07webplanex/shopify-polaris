@@ -5,7 +5,7 @@ class SettingForm extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            Connected: false,
+            Connected: true,
             autoPublish: false,
         };
     }
@@ -87,6 +87,7 @@ class SettingForm extends Component {
                             src="https://burst.shopifycdn.com/photos/business-woman-smiling-in-office.jpg?width=1850"
                         />
                     </MediaCard>
+                    
                 </Layout>
             </form>
 

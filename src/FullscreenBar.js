@@ -12,6 +12,7 @@ import {
   
   function FullscreenBarExample() {
     const [isFullscreen, setFullscreen] = useState(true);
+
   
     const handleActionClick = useCallback(() => {
       setFullscreen(false);
@@ -22,7 +23,7 @@ import {
         <div
           style={{
             display: 'flex',
-            flexGrow: 1,
+            flexGrow: 1,  
             justifyContent: 'space-between',
             alignItems: 'center',
             paddingLeft: '1rem',
@@ -67,11 +68,11 @@ import {
           <Text variant="headingLg" as="p">
           <Page title="Sales by product">
       <LegacyCard>
-        <DataTable
+        <DataTable 
           columnContentTypes={[
             'text',
             'numeric',
-            'numeric',
+            'numeric',q
             'numeric',
             'numeric',
           ]}
